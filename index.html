@@ -52,10 +52,10 @@ footer{padding:28px 0 40px;font-size:12px;color:var(--muted)}
     <h1>一緒に働く仲間を<br>募集しています。</h1>
     <p class="lead">京都大学発・松尾研発、製造業に特化した生成AIスタートアップです。<br>転職を考えていなくても大丈夫。まずはカジュアル面談で、気軽にお話ししませんか？</p>
     <div class="cta">
-      <a class="btn btn-main" id="mail-btn" href="#">✉ LEEにメールで相談する</a>
+      <a class="btn btn-main" id="mail-btn" href="#">✉ 担当者にメールする</a>
       <button class="btn btn-sub" id="copy-btn" type="button">メールアドレスをコピー</button>
     </div>
-    <p class="mail">連絡先：<b>sanggi.lee@emuniinc.jp</b>（エムニ社員 LEE）</p>
+    <p class="mail">連絡先：<b>sanggi.lee@emuniinc.jp</b></p>
     <p class="note">選考ではありません。オンラインで30分ほど、エムニの仕事やキャリアについてお話しします。</p>
   </div>
 </header>
@@ -87,22 +87,22 @@ footer{padding:28px 0 40px;font-size:12px;color:var(--muted)}
     <h2>カジュアル面談までの流れ</h2>
     <div class="box">
       <ol>
-        <li>上のボタンから LEE にメール（お名前と、気になる職種だけでOK）</li>
+        <li>上のボタンから担当者にメール（お名前と、気になる職種だけでOK）</li>
         <li>日程を調整して、オンラインで30分ほどお話し</li>
         <li>興味があれば、人事におつなぎします（ご希望がなければ選考には進みません）</li>
       </ol>
-      <p class="small">募集要項から直接ご応募いただく場合は、応募フォームの「Message to us」欄に「紹介者：LEE」とご記入ください。</p>
+      <p class="small">募集要項から直接ご応募いただく場合は、応募フォームの「Message to us」欄に「紹介者：sanggi.lee@emuniinc.jp」とご記入ください。</p>
     </div>
   </section>
 
   <div class="final">
     <h2>まずは、カジュアル面談から。</h2>
-    <a class="btn btn-main" id="mail-btn-2" href="#">✉ LEEにメールで相談する</a>
+    <a class="btn btn-main" id="mail-btn-2" href="#">✉ 担当者にメールする</a>
   </div>
 </main>
 
 <footer class="wrap">
-  このページは、株式会社エムニの社員 LEE が社員紹介（リファラル）のために作成したご案内ページです。<br>
+  このページは、株式会社エムニの社員が社員紹介（リファラル）のために作成したご案内ページです。<br>
   株式会社エムニ公式サイト：<a href="https://www.emuniinc.jp/" target="_blank" rel="noopener">https://www.emuniinc.jp/</a>
 </footer>
 
@@ -112,7 +112,7 @@ footer{padding:28px 0 40px;font-size:12px;color:var(--muted)}
 (function () {
   var to = "sanggi.lee@emuniinc.jp";
   var subject = "【カジュアル面談希望】エムニについて話を聞きたいです";
-  var body = "LEEさん\n\nエムニのカジュアル面談を希望します。\n\nお名前：\n現在のお仕事・職種：\n気になる職種：\nご都合のよい日時（オンライン）：\n\nこのページを知ったきっかけ：YouTube\n";
+  var body = "ご担当者様\n\nエムニのカジュアル面談を希望します。\n\nお名前：\n現在のお仕事・職種：\n気になる職種：\nご都合のよい日時（オンライン）：\n\nこのページを知ったきっかけ：YouTube\n";
   var href = "mailto:" + to + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
   document.getElementById("mail-btn").href = href;
   document.getElementById("mail-btn-2").href = href;
